@@ -1,4 +1,4 @@
-//
+ //
 //  ViewController.swift
 //  NavigationDrawer
 //
@@ -7,8 +7,12 @@
 //
 
 import UIKit
+import MMDrawerController
 
 class ViewController: UIViewController {
+    
+    let appDelegate = UIApplication.shared.delegate as! AppDelegate
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +24,12 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func RightNavButton(_ sender: AnyObject) {
+        appDelegate.centerContainer!.toggle(MMDrawerSide.right, animated: true, completion: nil)
+    }
 
+    @IBAction func LeftNavButton(_ sender: AnyObject) {
+        appDelegate.centerContainer!.toggle(MMDrawerSide.left, animated: true, completion: nil)
+    }
 }
 

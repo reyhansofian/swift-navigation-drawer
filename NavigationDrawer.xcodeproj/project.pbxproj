@@ -12,9 +12,17 @@
 		908449F81EE3C04E00E431FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 908449F61EE3C04E00E431FE /* Main.storyboard */; };
 		908449FA1EE3C04E00E431FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 908449F91EE3C04E00E431FE /* Assets.xcassets */; };
 		908449FD1EE3C04E00E431FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 908449FB1EE3C04E00E431FE /* LaunchScreen.storyboard */; };
+		90844A051EE3C26500E431FE /* LeftSideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90844A041EE3C26500E431FE /* LeftSideViewController.swift */; };
+		90844A071EE3C26F00E431FE /* RightSideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90844A061EE3C26F00E431FE /* RightSideViewController.swift */; };
+		90844A0B1EE3FAEF00E431FE /* salvatore.png in Resources */ = {isa = PBXBuildFile; fileRef = 90844A0A1EE3FAEF00E431FE /* salvatore.png */; };
+		90844A0D1EE3FC4200E431FE /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90844A0C1EE3FC4200E431FE /* CustomTableViewCell.swift */; };
+		90844A0F1EE4005500E431FE /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90844A0E1EE4005500E431FE /* AboutViewController.swift */; };
+		E367AA75BABF2DC77C97D12E /* Pods_NavigationDrawer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC012F42444FBD681E08B51A /* Pods_NavigationDrawer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F3513D83AEA38303A5DAB91 /* Pods-NavigationDrawer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigationDrawer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NavigationDrawer/Pods-NavigationDrawer.debug.xcconfig"; sourceTree = "<group>"; };
+		56B725FC4AC5CC922824C3CE /* Pods-NavigationDrawer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigationDrawer.release.xcconfig"; path = "Pods/Target Support Files/Pods-NavigationDrawer/Pods-NavigationDrawer.release.xcconfig"; sourceTree = "<group>"; };
 		908449EF1EE3C04E00E431FE /* NavigationDrawer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationDrawer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		908449F21EE3C04E00E431FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		908449F41EE3C04E00E431FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +30,12 @@
 		908449F91EE3C04E00E431FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		908449FC1EE3C04E00E431FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		908449FE1EE3C04E00E431FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90844A041EE3C26500E431FE /* LeftSideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftSideViewController.swift; sourceTree = "<group>"; };
+		90844A061EE3C26F00E431FE /* RightSideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightSideViewController.swift; sourceTree = "<group>"; };
+		90844A0A1EE3FAEF00E431FE /* salvatore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = salvatore.png; sourceTree = "<group>"; };
+		90844A0C1EE3FC4200E431FE /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		90844A0E1EE4005500E431FE /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		EC012F42444FBD681E08B51A /* Pods_NavigationDrawer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NavigationDrawer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E367AA75BABF2DC77C97D12E /* Pods_NavigationDrawer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +53,11 @@
 		908449E61EE3C04E00E431FE = {
 			isa = PBXGroup;
 			children = (
+				90844A081EE3FACD00E431FE /* assets */,
 				908449F11EE3C04E00E431FE /* NavigationDrawer */,
 				908449F01EE3C04E00E431FE /* Products */,
+				C7C42673153A486D3CBB29C2 /* Pods */,
+				D25D2E44463D428E3F48554F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,11 +75,48 @@
 				908449F21EE3C04E00E431FE /* AppDelegate.swift */,
 				908449F41EE3C04E00E431FE /* ViewController.swift */,
 				908449F61EE3C04E00E431FE /* Main.storyboard */,
+				90844A0E1EE4005500E431FE /* AboutViewController.swift */,
+				90844A041EE3C26500E431FE /* LeftSideViewController.swift */,
+				90844A061EE3C26F00E431FE /* RightSideViewController.swift */,
 				908449F91EE3C04E00E431FE /* Assets.xcassets */,
 				908449FB1EE3C04E00E431FE /* LaunchScreen.storyboard */,
 				908449FE1EE3C04E00E431FE /* Info.plist */,
+				90844A0C1EE3FC4200E431FE /* CustomTableViewCell.swift */,
 			);
 			path = NavigationDrawer;
+			sourceTree = "<group>";
+		};
+		90844A081EE3FACD00E431FE /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				90844A091EE3FAD400E431FE /* images */,
+			);
+			name = assets;
+			sourceTree = "<group>";
+		};
+		90844A091EE3FAD400E431FE /* images */ = {
+			isa = PBXGroup;
+			children = (
+				90844A0A1EE3FAEF00E431FE /* salvatore.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		C7C42673153A486D3CBB29C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F3513D83AEA38303A5DAB91 /* Pods-NavigationDrawer.debug.xcconfig */,
+				56B725FC4AC5CC922824C3CE /* Pods-NavigationDrawer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D25D2E44463D428E3F48554F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC012F42444FBD681E08B51A /* Pods_NavigationDrawer.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +126,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90844A011EE3C04E00E431FE /* Build configuration list for PBXNativeTarget "NavigationDrawer" */;
 			buildPhases = (
+				59FF76F2C9465F52906DE618 /* [CP] Check Pods Manifest.lock */,
 				908449EB1EE3C04E00E431FE /* Sources */,
 				908449EC1EE3C04E00E431FE /* Frameworks */,
 				908449ED1EE3C04E00E431FE /* Resources */,
+				CD3C66A6C2D46CBED1AD5DEB /* [CP] Embed Pods Frameworks */,
+				9964EBF906C4A991ACCC3641 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,6 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				908449FD1EE3C04E00E431FE /* LaunchScreen.storyboard in Resources */,
+				90844A0B1EE3FAEF00E431FE /* salvatore.png in Resources */,
 				908449FA1EE3C04E00E431FE /* Assets.xcassets in Resources */,
 				908449F81EE3C04E00E431FE /* Main.storyboard in Resources */,
 			);
@@ -131,12 +190,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		59FF76F2C9465F52906DE618 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9964EBF906C4A991ACCC3641 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NavigationDrawer/Pods-NavigationDrawer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD3C66A6C2D46CBED1AD5DEB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NavigationDrawer/Pods-NavigationDrawer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		908449EB1EE3C04E00E431FE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90844A0F1EE4005500E431FE /* AboutViewController.swift in Sources */,
 				908449F51EE3C04E00E431FE /* ViewController.swift in Sources */,
+				90844A0D1EE3FC4200E431FE /* CustomTableViewCell.swift in Sources */,
+				90844A051EE3C26500E431FE /* LeftSideViewController.swift in Sources */,
+				90844A071EE3C26F00E431FE /* RightSideViewController.swift in Sources */,
 				908449F31EE3C04E00E431FE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +367,7 @@
 		};
 		90844A021EE3C04E00E431FE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F3513D83AEA38303A5DAB91 /* Pods-NavigationDrawer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NavigationDrawer/Info.plist;
@@ -268,6 +380,7 @@
 		};
 		90844A031EE3C04E00E431FE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56B725FC4AC5CC922824C3CE /* Pods-NavigationDrawer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NavigationDrawer/Info.plist;
@@ -297,6 +410,7 @@
 				90844A031EE3C04E00E431FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
